@@ -12,3 +12,6 @@ Professora: Adriana Falcomer Pontes
 url do projeto.
 
 https://bruiinsilva.github.io/Gs-Estetica-Projeto-Final/index.html
+
+
+<img src="img/ "  height="500px" width="100%">
