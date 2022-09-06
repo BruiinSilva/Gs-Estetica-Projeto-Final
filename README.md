@@ -17,20 +17,20 @@ url do projeto.
 
 https://bruiinsilva.github.io/Gs-Estetica-Projeto-Final/index.html
 
-<<<<<<< HEAD
 
  Algumas fotos do site.
-
+ 
+ =======
  Navegação
 <img src="img/site/0.png" >
-
- Footer 
-<img src="img/site/1.png" >
-
-Mostrando Responsivo
-<img src="img/site/2.png">
 =======
 
-<img src="img/ "  height="500px" width="100%">
+=======
+ Rodapé
+<img src="img/site/1.png" >
+=======
 
->>>>>>> 998c2019268266ba49d7fb0b85c1dd968a9099bd
+=======
+Responsivo <br>
+<img src="img/site/2.png">
+=======
