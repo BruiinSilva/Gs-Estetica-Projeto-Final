@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="BRUNO C.GOMES">
+
+  <!-- FONTWESOME -->
+  <script src="https://kit.fontawesome.com/e3e0ab7579.js" crossorigin="anonymous"></script>
+  
+  <link rel="icon" type="image/x-icon" href="img/Logotipo.png">
+  <title>GS ESTÉTICA</title>
+
+  
+  <!--MEU CSS-->
+  <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/cards.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/font.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/footer.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/login.css" type="text/css" media="all">
+</head>
+<body>
+
+  <!--BARRA DE NAVEGAÇÃO-->
+  <header>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" ><img class="vas" src="img/Logotipo.png" alt=""  height="100px"></a>
+        <br><br>
+        <a href="quemsomos.html" class="active">HOME</a>
+        <a href="consulta.html">CONSULTA</a>
+        <a href="cadastre-se.html">CADASTRE-SE</a>
+        <div class="dropdown">
+          <button class="dropbtn">SERVIÇOS 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="podologia.html">Podologia</a>
+            <a href="tratamento.capilares.html">Capilar</a>
+            <a href="massagens.html">Massagens</a>
+            <a href="laser.html">Laser a frio </a>
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">TRATAMENTOS
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="tratamentoesteticos.html">Tratamentos Estéticos</a>
+            <a href="tratamentocirurgico.html">Tratamentos Cirúrgico</a>
+            <a href="harmonizaçao.html">Harmonizaçao Facial</a>
+            <a href="lipoaspiração.html">Lipoaspiração</a>
+            
+          </div>
+        </div>
+          <a class="lo" href="login.html">ENTRAR / LOGIN</a> 
+          <a > <div class="menu-openner"><i  class="fas fa-shopping-cart"></i><span> 0 </span></i></div></a>
+          
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+        
+    </nav>
+  </header>
+  
+  <main>
+
+    <div class="container">
+      <div class="content first-content">
+
+          <div class="first-column">
+              <h2 class="title title-primary">GS ESTÉTICA</h2>
+              <br>
+              <p class="description description-primary">Mantenha Conectado</p>
+              <p class="description description-primary">Inicie Sua Seção</p>
+              <button id="signin" class="btn btn-primary">Entre</button>
+          </div><!-- FIRST-COLUMN -->
+
+          <div class="second-column">
+              <h2 class="title title-second">Crie sua conta </h2>
+              <div class="social-midia">
+                  <ul class="list-social-midia">
+                      <a class="link-social-midia" href="#">
+                          <li class="item-social-midia"><i class="fab fa-facebook-f"></i></li>
+                      </a><!-- FACEBOOK -->
+                      <a class="link-social-midia" href="#">
+                          <li class="item-social-midia"><i class="fab fa-google"></i></li>
+                      </a><!-- GOOGLE -->
+                      <a class="link-social-midia" href="#">
+                          <li class="item-social-midia"><i class="fab fa-linkedin-in"></i></li>
+                      </a><!-- LINKEDIN -->
+                  </ul>
+              </div><!-- SOCIAL-MIDIA -->
+              <p class="description description-second">Entre com seu email</p>
+              <form class="form">
+                  <label class="label-input icon-modify" for="">
+                      <i class="fas fa-user"></i>
+                      <input type="text" placeholder="Nome">
+                  </label>
+                  <label class="label-input icon-modify" for="">
+                      <i class="fas fa-envelope"></i>
+                      <input type="email" placeholder="Email">
+                  </label>
+                  <label class="label-input icon-modify" for="">
+                      <i class="fas fa-lock"></i>
+                      <input type="password" placeholder="Senha">
+                  </label>
+                  <button class="btn btn-second">enviar</button>
+              </form>
+          </div><!-- SECOND-COLUMN -->  
+
+      </div><!-- CONTENT FIRST-CONTENT -->
+      
+      <div class="content second-content">
+      
+          <div class="first-column">
+              <h2 class="title title-primary">Olá,bem vindo!</h2>
+              <br>
+              <p class="title title-primary">GS ESTÉTICA</p>
+              <br>
+              <p class="description description-primary">Faça sua Conta</p>
+              <button id="signup" class="btn btn-primary">registre-se</button>
+          </div><!-- FIRST-COLUMN -->
+
+          <div class="second-column">
+              <h2 class="title title-second">Seja bem vindo</h2>
+              <div class="social-midia">
+                  <ul class="list-social-midia">
+                      <a class="link-social-midia" href="#">
+                          <li class="item-social-midia"><i class="fab fa-facebook-f"></i></li>
+                      </a><!-- FACEBOOK -->
+                      <a class="link-social-midia" href="#">
+                          <li class="item-social-midia"><i class="fab fa-google"></i></li>
+                      </a><!-- GOOGLE -->
+                      <a class="link-social-midia" href="#">
+                          <li class="item-social-midia"><i class="fab fa-linkedin-in"></i></li>
+                      </a><!-- LINKEDIN -->
+                  </ul>
+              </div><!-- SOCIAL-MIDIA -->
+              <p class="description description-second">Entre com seu email</p>
+              <form class="form">
+                  <label class="label-input icon-modify" for="">
+                      <i class="fas fa-envelope"></i>
+                      <input type="email" placeholder="Email">
+                  </label>
+                  <label class="label-input icon-modify" for="">
+                      <i class="fas fa-lock"></i>
+                      <input type="password" placeholder="Senha">
+                  </label>
+                  <a class="password" href="#">esqueceu a senha?</a>
+                  <button class="btn btn-second">entrar</button>
+              </form>
+          </div><!-- SECOND-COLUMN -->
+      </div><!-- CONTENT SECOND-CONTENT -->  
+  </div><!-- CONTAINER -->
+
+  </main>
+
+   <!--FOOTER-->
+   <footer>
+    <div class="footer-container">
+        <div class="footer-content-container">
+            <h3 class="website-logo"> GS Clinica Estética </h3>
+            <span class="footer-info">Fazendo o bem para seu dia a dia</span>
+            <span class="footer-info">gsestetica@gmail.com</span>
+        </div>
+        <div class="footer-menus">
+            <div class="footer-content-container">
+                <span class="menu-title"><strong> HOME </strong></span>
+                <a  class="menu-item-footer">Serviços</a>
+                <a href="" class="menu-item-footer">Tratamentos</a>
+                <a href="" class="menu-item-footer">Massagens</a>
+            </div>
+            <div class="footer-content-container">
+                <span class="menu-title"><strong>legal</strong></span>
+                <a href="" class="menu-item-footer">Política de privacidade</a>
+                <a href="" class="menu-item-footer">Cookies</a>
+                <a href="" class="menu-item-footer">Assessoria Jurídica</a>
+            </div>
+        </div>
+        
+        <div class="footer-content-container">
+            <span class="menu-title"><strong>REDES SOCIAIS</strong></span>
+            <div class="social-container">
+                <a href="" class="social-link"></a>
+                <a href="" class="social-link"></a>
+                <a href="" class="social-link"></a>
+                <a href="" class="social-link"></a>  
+            </div>
+        </div>
+       
+    </div>
+
+    <div>
+      <h1  style="color: #fff; font-size:15px; font-family: Arial, Helvetica, sans-serif;">
+      </h1>
+    </div>
+    <br>
+    <div class="copyright-container">
+        <span class="copyright">COPYRIGHT 2022 | GSESTETICA.COM  | TODOS OS DIREITOS RESERVADOS | FEITO POR BRUNO C. GOMES</span>
+    </div>
+    <a class="whatsapp-link"  href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank" > 
+      <i class="fa fa-whatsapp"></i>
+    </a>
+   </footer>
+
+    <a class="whatsapp-link"  href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank" > 
+      <i class="fa fa-whatsapp"></i>
+    </a>
+
+    <script src="js/scripit.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/nav.js"></script>
+    
+</body>
+</html>

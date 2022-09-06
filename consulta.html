@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="BRUNO C.GOMES">
+
+  <!-- FONTWESOME -->
+  <script src="https://kit.fontawesome.com/e3e0ab7579.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="img/Logotipo.png">
+  <title>GS ESTÉTICA</title>
+
+  
+  <!--MEU CSS-->
+  <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/cards.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/font.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/footer.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/contato.css" type="text/css" media="all">
+  
+</head>
+<body>
+
+ <!--BARRA DE NAVEGAÇÃO-->
+  <header>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" ><img class="vas" src="img/Logotipo.png" alt=""  height="100px"></a>
+        <br><br>
+        <a href="quemsomos.html" class="active">HOME</a>
+        <a href="consulta.html">CONSULTA</a>
+        <a href="cadastre-se.html">CADASTRE-SE</a>
+        <div class="dropdown">
+          <button class="dropbtn">SERVIÇOS 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="podologia.html">Podologia</a>
+            <a href="tratamento.capilares.html">Capilar</a>
+            <a href="massagens.html">Massagens</a>
+            <a href="laser.html">Laser a frio </a>
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">TRATAMENTOS
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="tratamentoesteticos.html">Tratamentos Estéticos</a>
+            <a href="tratamentocirurgico.html">Tratamentos Cirúrgico</a>
+            <a href="harmonizaçao.html">Harmonizaçao Facial</a>
+            <a href="lipoaspiração.html">Lipoaspiração</a>
+            
+          </div>
+        </div>
+          <a class="lo" href="login.html">ENTRAR / LOGIN</a> 
+          <a > <div class="menu-openner"><i  class="fas fa-shopping-cart"></i><span> 0 </span></i></div></a>
+          
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+        
+    </nav>
+  </header>
+  <br>
+
+  <main>
+
+    <section>
+      <div class="card1">
+        <div class="image">
+          <h3 style="color:rgb(250, 219, 219)">A IMPORTÂNCIA DE UMA AVALIAÇÃO</h3><br><br>
+          <p style="font-size: 17px;"> É por meio da avaliação que o profissional identifica a necessidade  <br> 
+            e possibilidade de realizar o procedimento,  <br>
+            tendo em vista a análise clínica do paciente. <br><br>
+
+            Como a condição de cada paciente é individual, se faz necessária a validação  <br>
+            do estado de saúde prévio - assim, garantimos que tudo corra bem,<br>
+            sem intercorrências, e que o resultado esperado seja atingido.<br><br>
+
+            Além disso, o paciente responde um questionário que contém  <br>
+            informações importantes sobre sua história atual e pregressa.<br>
+            Esse questionário é mais uma etapa da avaliação clínica - e é chamada de anamnese <br><br><br>
+
+
+            A <strong style="color: black;">anamnese</strong> é uma entrevista conduzida pelo médico em consultório com o objetivo de identificar <br>
+            os sintomas do paciente e chegar ao diagnóstico. <br>
+            À medida que contribui para encontrar o método que seja mais eficaz para o seu paciente, <br>
+            é a base para o diagnóstico, por essa razão ela é tão importante! <br><br><br><br><br><br><br>
+
+            Agende sua consulta !
+          
+        </div>
+        
+        <div class="center  ">
+          <div>
+              <img src="img/Logotipo.png"></img>
+          </div>
+          <h1 class="up">AGENDE SUA CONSULTA!</h1><br>
+      <div class="iii">
+        
+        <form action="https://formsubmit.co/bruno.bg820@gmail.com" method="POST" class="form">
+          <label style="color: white; " for="name"> <strong>NOME COMPLETO</strong></label>
+          <input type="text" placeholder=" Informe seu Nome" name="name" id="name" required />
+          <label style="color: white;"  for="email"><strong>E-MAIL PARA CONTATO</strong></label>
+          <input type="text" placeholder=" Informe seu E-mail" name="name" id="name" required />
+          <label style="color: white;"  for="date"> <strong>DATA PARA POSSÍVEL CONSULTA </strong></label>
+          <input type="date" name="date" id="date" required />
+          <label style="color: white;" ><strong>SEXO</strong> </label>
+          <select name="sexo">
+              <option value="Masculino">Masculino</option> 
+              <option value="Feminino">Feminino</option> 
+              <option value="outro">Outro</option> 
+          </select> <br><br><br>
+            <label style="color: white;" ><strong>PROFISSIONAL QUE DESEJA SER CONSULTADO(A)</strong> </label>
+          <select name="Profissional">
+              <option value="Gabriela Gomes">Gabriela Gomes</option> 
+              <option value="Ana clara">Ana Clara </option> 
+              <option value="outro">Heloisa Rocha</option> 
+          </select> <br><br><br>
+          <label for="message" style="color: white;"  ><strong>MENSAGEM</strong></label>
+          <textarea name="message" placeholder="Motivo da sua consulta(Obrigatório)" id="message" required></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html"/>
+          <button type="submit">Enviar</button>
+        </form>
+        <div>
+          <input type="checkbox" name="area" value="Montagem" /> <strong>
+            <span style="font-size: 12px; color: white;" >Ao preencher o formulário, concordo em receber comunicações via e-mail. <br>
+               Saiba mais em nossas páginas de <br><br>
+                <a style="color: black ;font-size: 15px" href="">Termos de uso</a> e <a style="color: black; font-size: 15px; ;" href="">Política de Privacidade</a>. 
+                <br><br> (Obrigatório)</span></strong>
+          </div>
+      </div>
+    </div> 
+    
+      </div>
+    </section>
+    <br>
+    
+  </main>
+ 
+   <!--FOOTER-->
+   <footer>
+    <div class="footer-container">
+        <div class="footer-content-container">
+            <h3 class="website-logo"> GS Clinica Estética </h3>
+            <span class="footer-info">Fazendo o bem para seu dia a dia</span>
+            <span class="footer-info">gsestetica@gmail.com</span>
+        </div>
+        <div class="footer-menus">
+            <div class="footer-content-container">
+                <span class="menu-title"><strong> HOME </strong></span>
+                <a  class="menu-item-footer">Serviços</a>
+                <a href="" class="menu-item-footer">Tratamentos</a>
+                <a href="" class="menu-item-footer">Massagens</a>
+            </div>
+            <div class="footer-content-container">
+                <span class="menu-title"><strong>legal</strong></span>
+                <a href="" class="menu-item-footer">Política de privacidade</a>
+                <a href="" class="menu-item-footer">Cookies</a>
+                <a href="" class="menu-item-footer">Assessoria Jurídica</a>
+            </div>
+        </div>
+        
+        <div class="footer-content-container">
+            <span class="menu-title"><strong>REDES SOCIAIS</strong></span>
+            <div class="social-container">
+                <a href="" class="social-link"></a>
+                <a href="" class="social-link"></a>
+                <a href="" class="social-link"></a>
+                <a href="" class="social-link"></a>  
+            </div>
+        </div>
+       
+    </div>
+
+    <div>
+      <h3  style="color: #fff; font-size:15px; font-family: Arial, Helvetica, sans-serif;">
+      </h3>
+    </div>
+    <br>
+    <div class="copyright-container">
+        <span class="copyright">COPYRIGHT 2022 | GSESTETICA.COM  | TODOS OS DIREITOS RESERVADOS | FEITO POR BRUNO C. GOMES</span>
+    </div>
+    <a class="whatsapp-link"  href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank" > 
+      <i class="fa fa-whatsapp"></i>
+    </a>
+   </footer>
+
+  <script src="js/scripit.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
+
+
+
+
