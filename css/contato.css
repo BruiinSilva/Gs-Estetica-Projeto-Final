@@ -1,0 +1,113 @@
+/* mexe na imagem main*/
+
+main img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #285f34;;
+}
+
+.center {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #274221dc;
+    border-radius: 30px;
+    width: 450px;
+    height: 30%;
+    margin: 20px;
+}
+
+/* mexe no formulario*/
+
+.up{
+    font-size: 25px;
+}
+.iii {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+   
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1::before {
+    content: "📧";
+    display: block;
+  }
+  
+  h2::before {
+    content: "🐅";
+    display: block;
+    font-size: 80px;
+  }
+  
+  .form {
+    width: 50%;
+    max-width: 20rem;
+    font-size: 12px;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+  }
+  
+  .form label {
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  .form textarea {
+    min-height: 4rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: rgb(12, 66, 10);
+    box-shadow: 0 0 0 3px #080808;
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #0f0f0f;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: rgb(17, 63, 17);
+  }

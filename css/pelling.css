@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    color:rgb(250, 219, 219)
+}
+p {
+    font-size: 17px;
+    padding: 20px 20px;
+    font-weight: bold;
+}
+
+h2{
+    padding: 20px;
+}
+
+.boo{
+    font-size: 15px;
+    border-radius: 20px 40px;
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    box-shadow: 41px 40px 10px #424106;
+  }
+ 
+ 
+  
+  .boo:hover {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #1fa741;
+    font-size: 17px ;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 41px 40px 10px #424106;
+  }
+  .image{
+    margin: 20px;
+    padding:10px 20px;
+    height: 100%;
+  }
+  .card1{
+    display: flex;
+    flex-wrap: wrap;
+  }
