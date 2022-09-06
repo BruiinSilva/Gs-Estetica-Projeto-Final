@@ -8,3 +8,7 @@ Professora: Adriana Falcomer Pontes
 * [HTML básico](https://www.w3schools.com/html/)
 * [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [JS básico](https://www.w3schools.com/js/)
+
+url do projeto.
+
+https://bruiinsilva.github.io/Gs-Estetica-Projeto-Final/index.html
